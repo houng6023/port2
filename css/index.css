@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
 
 
+
 body {font-family: 'Cormorant Unicase', serif;
     font-family: 'EB Garamond', serif;}
 .row { max-width: 1140px;
@@ -42,10 +43,15 @@ section .right > ul {margin:80px 50px; }
 section .right > ul > li {padding: 20px 0; font-size: 30px; transition: all 0.3s;}
 section .right > ul > li:hover {color: #fff; text-shadow: 0 0 1px #000;}
 
-/* section .About .infome .picture {background: url(../img/일러스트.png)no-repeat; width: 100px; height: 300px;} */
-/* section .About .infome .picture {background: olive; width: 100px; height: 10px;} */
 
-
+section .About {position: relative; display: none;}
+section .About.on{display: block;} 
+section .About .infome {display: flex; }
+section .About .infome .picture {width: 500px ;  }
+section .About .infome .metwxt {margin-top: 100px;  font-family: 'Noto Sans KR', sans-serif; margin-right: 10px;}
+section .About .infome .metwxt > p {margin-bottom: 20px;}
+section .close { font-size: 30px; ; position: absolute; bottom: 5%; left: 50%; transform: translateX(-50%); }
+section .close:hover {color: #555;}
 
 
 

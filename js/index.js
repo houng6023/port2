@@ -3,10 +3,11 @@ $('.nav > .fas').on('click',function(){
     
 })
 
-$('section .far').on('click',function(){
+$('section .fa-times-circle').on('click',function(){
     $('.right').removeClass('on')
     
 })
+
 
 
 
@@ -18,6 +19,11 @@ $('.right ul li').on('click',function(){
 })
 
 
+
+// 네모 엑스버튼 클릭시 
+$('#Bigbox .close').on('click',function(){
+    $(this).parent().removeClass('on')
+ })
 
 
 
